@@ -1,0 +1,28 @@
+(base) roselyne@rosey:~/shell-lesson-data/exercise-data/alkanes$ sort -r sorted_Lengths.txt > newSorted_lengths.txt
+
+(base) roselyne@rosey:~/shell-lesson-data/exercise-data/alkanes$ cat newSorted_lengths.txt
+
+6081 total
+1828 octane.pdb
+1226 pentane.pdb
+1158 cubane.pdb
+ 825 propane.pdb
+ 819 total
+ 622 ethane.pdb
+ 422 methane.pdb
+ 246 octane.pdb
+ 165 pentane.pdb
+ 156 cubane.pdb
+ 111 propane.pdb
+ 107 total
+  84 ethane.pdb
+  57 methane.pdb
+  30 octane.pdb
+  21 pentane.pdb
+  20 cubane.pdb
+  15 propane.pdb
+  12 ethane.pdb
+   9 methane.pdb
+
+(base) roselyne@rosey:~/shell-lesson-data/exercise-data/alkanes$ sort -c newSorted_lengths.txt
+sort: newSorted_lengths.txt:2: disorder: 1828 octane.pdb
